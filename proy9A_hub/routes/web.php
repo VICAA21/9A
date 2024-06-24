@@ -13,3 +13,7 @@ Route::get('primera', function () {
 Route::get('segunda', function () {
     return view('dos');
 });
+
+Route::get('tercera', function () {
+    return view('tres');
+});
